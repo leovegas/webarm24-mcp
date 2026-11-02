@@ -65,6 +65,12 @@ claude mcp add --transport http webarm24 https://webarm24.online/mcp \
 - Content pipelines: generate → render → publish on a schedule
 - Glue between MCP servers: call tools from other MCP servers as pipeline steps
 
+### Example: gluing two MCP servers
+
+![A WebArm24 pipeline chaining the TidyData and rows.page MCP servers](demo-mcp-glue.gif)
+
+*Every Monday, one pipeline calls the TidyData MCP server three times in parallel (US, UK and DE public holidays), merges the results, publishes them as a shared table with the rows.page MCP server, and emails the link. It's a real run that took 5.3s.*
+
 ## Pricing
 
 Pay-as-you-go credits with no subscription. Creating, editing and reading pipelines is free. Runs, AI builder calls
