@@ -5,6 +5,10 @@
 Connect Claude Code, Cursor, Windsurf or any MCP client to [WebArm24](https://webarm24.online). Your agent can then
 **build, schedule, run and debug real workflows** without you dragging nodes around a canvas.
 
+![Claude Code builds, schedules and runs a WebArm24 workflow over MCP](demo.gif)
+
+*One sentence to Claude Code → a weekday 9am "Daily FX Report" workflow, created, run and emailed in 15.5s (a real run).*
+
 - 🌐 Website: https://webarm24.online
 - 🔌 MCP endpoint: `https://webarm24.online/mcp` (streamable HTTP, hosted, nothing to install)
 - 📇 Official MCP Registry: [`online.webarm24/webarm24`](https://registry.modelcontextprotocol.io/v0/servers?search=online.webarm24)
