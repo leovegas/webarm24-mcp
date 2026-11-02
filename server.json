@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "online.webarm24/webarm24",
+  "title": "WebArm24",
+  "description": "AI automation platform (n8n/Zapier alternative): build, schedule and run workflows from your agent.",
+  "version": "1.0.0",
+  "websiteUrl": "https://webarm24.online",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://webarm24.online/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer wak_... API key. Create one at https://webarm24.online (MCP button). Free credits on signup.",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
